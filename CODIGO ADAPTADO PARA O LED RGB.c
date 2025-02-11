@@ -5,9 +5,9 @@
  #include "hardware/pwm.h"
  #include "hardware/clocks.h"
  
- #define LED_R_PIN 12  // LED vermelho no GPIO 12
- #define LED_G_PIN 13  // LED verde no GPIO 13
- #define LED_B_PIN 14  // LED azul no GPIO 14
+ #define LED_R_PIN 13  // LED vermelho no GPIO 13
+ #define LED_G_PIN 11  // LED verde no GPIO 11
+ #define LED_B_PIN 12  // LED azul no GPIO 12
  
  #define PWM_FREQUENCY 1000  // Frequência do PWM
  #define CLOCK_DIVIDER 125   // Divisor do clock
